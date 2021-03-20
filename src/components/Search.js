@@ -68,6 +68,8 @@ function Search() {
       .catch(err => {
         console.log(err);
       })
+    console.log(results);
+    console.log(query);
   }
 
   getCurrencies();
